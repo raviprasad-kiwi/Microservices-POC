@@ -1,0 +1,17 @@
+D:\Projects\MicroService\Action\src\Action.Api\bin\Debug\netcoreapp2.2\Action.Api.deps.json
+D:\Projects\MicroService\Action\src\Action.Api\bin\Debug\netcoreapp2.2\Action.Api.runtimeconfig.json
+D:\Projects\MicroService\Action\src\Action.Api\bin\Debug\netcoreapp2.2\Action.Api.runtimeconfig.dev.json
+D:\Projects\MicroService\Action\src\Action.Api\bin\Debug\netcoreapp2.2\Action.Api.dll
+D:\Projects\MicroService\Action\src\Action.Api\bin\Debug\netcoreapp2.2\Action.Api.pdb
+D:\Projects\MicroService\Action\src\Action.Api\bin\Debug\netcoreapp2.2\Action.Common.dll
+D:\Projects\MicroService\Action\src\Action.Api\bin\Debug\netcoreapp2.2\Action.Common.pdb
+D:\Projects\MicroService\Action\src\Action.Api\obj\Debug\netcoreapp2.2\Action.Api.csprojAssemblyReference.cache
+D:\Projects\MicroService\Action\src\Action.Api\obj\Debug\netcoreapp2.2\Action.Api.csproj.CoreCompileInputs.cache
+D:\Projects\MicroService\Action\src\Action.Api\obj\Debug\netcoreapp2.2\Action.Api.RazorAssemblyInfo.cache
+D:\Projects\MicroService\Action\src\Action.Api\obj\Debug\netcoreapp2.2\Action.Api.RazorAssemblyInfo.cs
+D:\Projects\MicroService\Action\src\Action.Api\obj\Debug\netcoreapp2.2\Action.Api.AssemblyInfoInputs.cache
+D:\Projects\MicroService\Action\src\Action.Api\obj\Debug\netcoreapp2.2\Action.Api.AssemblyInfo.cs
+D:\Projects\MicroService\Action\src\Action.Api\obj\Debug\netcoreapp2.2\Action.Api.RazorTargetAssemblyInfo.cache
+D:\Projects\MicroService\Action\src\Action.Api\obj\Debug\netcoreapp2.2\Action.Api.csproj.CopyComplete
+D:\Projects\MicroService\Action\src\Action.Api\obj\Debug\netcoreapp2.2\Action.Api.dll
+D:\Projects\MicroService\Action\src\Action.Api\obj\Debug\netcoreapp2.2\Action.Api.pdb

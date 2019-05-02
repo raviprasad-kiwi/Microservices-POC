@@ -1,0 +1,9 @@
+D:\Projects\MicroService\Action\src\Action.Common\bin\Debug\netstandard2.0\Action.Common.deps.json
+D:\Projects\MicroService\Action\src\Action.Common\bin\Debug\netstandard2.0\Action.Common.dll
+D:\Projects\MicroService\Action\src\Action.Common\bin\Debug\netstandard2.0\Action.Common.pdb
+D:\Projects\MicroService\Action\src\Action.Common\obj\Debug\netstandard2.0\Action.Common.csprojAssemblyReference.cache
+D:\Projects\MicroService\Action\src\Action.Common\obj\Debug\netstandard2.0\Action.Common.csproj.CoreCompileInputs.cache
+D:\Projects\MicroService\Action\src\Action.Common\obj\Debug\netstandard2.0\Action.Common.AssemblyInfoInputs.cache
+D:\Projects\MicroService\Action\src\Action.Common\obj\Debug\netstandard2.0\Action.Common.AssemblyInfo.cs
+D:\Projects\MicroService\Action\src\Action.Common\obj\Debug\netstandard2.0\Action.Common.dll
+D:\Projects\MicroService\Action\src\Action.Common\obj\Debug\netstandard2.0\Action.Common.pdb
