@@ -5,7 +5,7 @@ using System.Text;
 
 namespace Action.Common.Events
 {
-    class ActivityCreated : IAuthenticatedEvent
+    public class ActivityCreated : IAuthenticatedEvent
     {
         public Guid Id { get; set; }
         public Guid UserId { get; set; }
