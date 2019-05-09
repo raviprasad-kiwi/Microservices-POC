@@ -18,7 +18,7 @@ namespace Action.Service.Activities.Handlers
         public async Task HandlerAsync(CreateActivity command)
         {
             Console.WriteLine($"Create Activity : {command.Name}");
-            await _busClient.PublishAsync(new CreateActivity { command.Id, command.UserId, command.Category, command.Name });
+            await _busClient.PublishAsync(new ActivityCreated(command.Id, command.UserId, command.Category, command.Name));
         }
     }
 }

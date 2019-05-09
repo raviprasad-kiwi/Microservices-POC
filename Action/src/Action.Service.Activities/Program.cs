@@ -4,6 +4,7 @@ using System.IO;
 using System.Linq;
 using System.Threading.Tasks;
 using Action.Common.Commands;
+using Action.Common.Events;
 using Action.Common.Services;
 using Microsoft.AspNetCore;
 using Microsoft.AspNetCore.Hosting;
@@ -18,7 +19,7 @@ namespace Action.Service.Activities
         {
             ServiceHost.Create<Startup>(args)
                  .UseRabbitMQ()
-                 .SubscribeToCommand<ActivityCreated>().Build().Run();
+                 .SubscribeToCommand<CreateUser>().Build().Run();
         }
 
         

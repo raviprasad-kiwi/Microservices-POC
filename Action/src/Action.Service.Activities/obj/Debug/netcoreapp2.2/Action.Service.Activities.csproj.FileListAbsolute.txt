@@ -1,0 +1,17 @@
+D:\Projects\MicroService\Action\src\Action.Service.Activities\obj\Debug\netcoreapp2.2\Action.Service.Activities.csprojAssemblyReference.cache
+D:\Projects\MicroService\Action\src\Action.Service.Activities\obj\Debug\netcoreapp2.2\Action.Service.Activities.csproj.CoreCompileInputs.cache
+D:\Projects\MicroService\Action\src\Action.Service.Activities\obj\Debug\netcoreapp2.2\Action.Service.Activities.RazorAssemblyInfo.cache
+D:\Projects\MicroService\Action\src\Action.Service.Activities\obj\Debug\netcoreapp2.2\Action.Service.Activities.RazorAssemblyInfo.cs
+D:\Projects\MicroService\Action\src\Action.Service.Activities\obj\Debug\netcoreapp2.2\Action.Service.Activities.AssemblyInfoInputs.cache
+D:\Projects\MicroService\Action\src\Action.Service.Activities\obj\Debug\netcoreapp2.2\Action.Service.Activities.AssemblyInfo.cs
+D:\Projects\MicroService\Action\src\Action.Service.Activities\bin\Debug\netcoreapp2.2\Action.Service.Activities.deps.json
+D:\Projects\MicroService\Action\src\Action.Service.Activities\bin\Debug\netcoreapp2.2\Action.Service.Activities.runtimeconfig.json
+D:\Projects\MicroService\Action\src\Action.Service.Activities\bin\Debug\netcoreapp2.2\Action.Service.Activities.runtimeconfig.dev.json
+D:\Projects\MicroService\Action\src\Action.Service.Activities\bin\Debug\netcoreapp2.2\Action.Service.Activities.dll
+D:\Projects\MicroService\Action\src\Action.Service.Activities\bin\Debug\netcoreapp2.2\Action.Service.Activities.pdb
+D:\Projects\MicroService\Action\src\Action.Service.Activities\bin\Debug\netcoreapp2.2\Action.Common.dll
+D:\Projects\MicroService\Action\src\Action.Service.Activities\bin\Debug\netcoreapp2.2\Action.Common.pdb
+D:\Projects\MicroService\Action\src\Action.Service.Activities\obj\Debug\netcoreapp2.2\Action.Service.Activities.RazorTargetAssemblyInfo.cache
+D:\Projects\MicroService\Action\src\Action.Service.Activities\obj\Debug\netcoreapp2.2\Action.Service.Activities.csproj.CopyComplete
+D:\Projects\MicroService\Action\src\Action.Service.Activities\obj\Debug\netcoreapp2.2\Action.Service.Activities.dll
+D:\Projects\MicroService\Action\src\Action.Service.Activities\obj\Debug\netcoreapp2.2\Action.Service.Activities.pdb

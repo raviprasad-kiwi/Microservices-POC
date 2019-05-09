@@ -13,7 +13,7 @@ namespace Action.Common.Events
         public string Name { get; set; }
         public string Description { get; set; }
         public DateTime CreatedAt { get; set; }
-        public ActivityCreated(Guid id, Guid GuidUserId)
+        public ActivityCreated(Guid id, Guid GuidUserId, string category, string name)
         {
             Id = id;
             UserId = GuidUserId;
