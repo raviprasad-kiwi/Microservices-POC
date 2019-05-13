@@ -3,7 +3,12 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Action.Common.Commands;
+using Action.Common.Mongo;
 using Action.Common.RabbitMQ;
+using Action.Service.Activities.Domain.Repositories;
+using Action.Service.Activities.Handlers;
+using Action.Service.Activities.Repositories;
+using Action.Service.Activities.Services;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
@@ -28,8 +33,13 @@ namespace Action.Service.Activities
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_2);
+            services.AddLogging();
+            services.AddMongoDB(Configuration);
             services.AddRabbitMq(Configuration);
             services.AddScoped<ICommandHandler<CreateActivity>, CreateActivityHandler>();
+            services.AddScoped<IActivityRepository, ActivityRepository>();
+            services.AddScoped<ICategoryRepository, CategoryRepository>();
+            services.AddScoped<IDatabaseSeeder, CustomMongoSeeder>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -44,7 +54,7 @@ namespace Action.Service.Activities
                 // The default HSTS value is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts.
                 app.UseHsts();
             }
-
+            app.ApplicationServices.GetService<IDatabaseInitializer>().InitializeAsync();
             app.UseHttpsRedirection();
             app.UseMvc();
         }

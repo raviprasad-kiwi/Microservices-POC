@@ -13,7 +13,7 @@ namespace Action.Common.Mongo
 {
     public static class Extensions
     {
-        public static void AddMOngoDB(this IServiceCollection service, IConfiguration configuration)
+        public static void AddMongoDB(this IServiceCollection service, IConfiguration configuration)
         {
             service.Configure<MongoOptions>(configuration.GetSection("mongo"));
             service.AddSingleton<MongoClient>(c =>
@@ -21,11 +21,14 @@ namespace Action.Common.Mongo
                 var options = c.GetService<IOptions<MongoOptions>>();
                 return new MongoClient(options.Value.Connectionstring);
             });
-            var client = RawRabbitFactory.CreateSingleton(new RawRabbitOptions
+            service.AddScoped<IMongoDatabase>(c =>
             {
-                ClientConfiguration = options;
+                var options = c.GetService<IOptions<MongoOptions>>();
+                var client = c.GetService<MongoClient>();
+                return client.GetDatabase(options.Value.Database);
             });
-            service.AddSingleton<IBusClient>(_ => client);
+            service.AddScoped<IDatabaseInitializer, MongoInitializer>();
+            service.AddScoped<IDatabaseSeeder, MongoSeeder>();
         }
             
     }

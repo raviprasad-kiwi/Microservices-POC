@@ -8,6 +8,6 @@ namespace Action.Common.Mongo
     {
         public string  Connectionstring { get; set; }
         public string Database { get; set; }
-        public bool Send { get; set; }
+        public bool Seed { get; set; }
     }
 }
